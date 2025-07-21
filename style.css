@@ -452,3 +452,45 @@ img {
   object-fit: cover;
   width: 100%;
 }
+
+/*sports page*/
+
+.hero-sporty-section {
+  background: url('/assets/sports2.jpg') no-repeat center center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+
+  z-index: 1;
+}
+
+
+.hero-sports-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-sports-section h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+      .hero-sports-section p {
+        color: white;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+      }
+
+      .sport-item {
+        margin-bottom: 40px;
+      }
+
+      .sport-img {
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .sport-content h3 {
+        color: #e63946;
+      } 
