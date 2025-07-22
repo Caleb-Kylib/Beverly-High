@@ -180,18 +180,16 @@
 
       /*leadership section*/
 
-     
-
 .leaders-section {
   padding: 60px 20px;
-  background: #dde0e6;
+  background: #e3e5eb;
   text-align: center;
 }
 
 .section-title {
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #333;
+  color: #8d0b0b;
 }
 
 .leaders-container {
@@ -494,3 +492,80 @@ img {
       .sport-content h3 {
         color: #e63946;
       } 
+
+    /* Admin Hero Banner */
+.hero-admin-section {
+  position: relative;
+  height: 60vh;
+  background: url('/assets/banneradd.jpg') center/cover no-repeat;
+}
+
+.admin-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 12, 12, 0.6);
+  z-index: 1;
+
+}
+
+.admin-hero .hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+
+/* Admin Section */
+.admin-section {
+  background-color: #e9ecee;
+}
+
+.admin-card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-card img {
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.admin-contact-section {
+  background-color: #eef1f5; /* Light Bootstrap grey */
+  color: #212529;
+ 
+}
+
+.admin-contact-section h2 {
+  font-size: 2.5rem;
+  color: #003366; /* Deep blue for emphasis */
+}
+
+.admin-contact-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.admin-contact-section .btn {
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.admin-contact-section .btn:hover {
+  background-color: #002244;
+  color: #fff;
+}
+
